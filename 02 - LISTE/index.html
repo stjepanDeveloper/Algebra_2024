@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Liste</title>
+</head>
+
+<body>
+
+    <h1>Liste u HTML-u</h1>
+    <h2>Redne (brojčane) liste</h2>
+    <ol>
+        <li>Italija</li>
+        <li>Francuska</li>
+        <li>Grčka</li>
+        <li>Španjolska</li>
+        <li>SAD</li>
+        <li>Turska</li>
+    </ol>
+
+    <!-- I, i, a, A -->
+    <ol type="A">
+        <li>Zagreb</li>
+        <li>Rijeka</li>
+        <li>Split</li>
+        <li>Dubrovnik</li>
+    </ol>
+
+    <ol type="a">
+        <li>Zagreb</li>
+        <li>Rijeka</li>
+        <li>Dubrovnik</li>
+        <li>Split</li>
+    </ol>
+
+    <h4>Type Attribute</h4>
+    <ol type="I">
+        <li>Italija</li>
+        <li>Francuska</li>
+        <li type="A">Grčka</li>
+        <li>Španjolska</li>
+    </ol>
+
+    <h4>Start Attribute</h4>
+    <ol type="1" start="3">
+        <li>Italija</li>
+        <li>Španjolska</li>
+        <li>Grčka</li>
+    </ol>
+
+    <h4>Value Attribute</h4>
+    <ol type="1">
+        <li>Italija</li>
+        <li>Francuska</li>
+        <li value="1">Španjolska</li>
+        <li>Grčka</li>
+        <li>SAD</li>
+    </ol>
+
+    <ol type="a">
+        <li>Španjolska</li>
+        <li>Grčka</li>
+        <li value="1">Makedonija</li>
+    </ol>
+
+
+    <ol type="a" reversed>
+        <li>Španjolska</li>
+        <li>Grčka</li>
+        <li>Hrvatska</li>
+        <li>Slovenija</li>
+    </ol>
+
+    <h4>Neuređena lista</h4>
+    <ul>
+        <li>Grčka</li>
+        <li>Španjolska</li>
+        <li>Italija</li>
+        <li>Hrvatska</li>
+    </ul>
+
+    <!-- Type atributi: square ili circle -->
+    <ul type="square">
+        <li>Hrvatska</li>
+        <li>Grčka</li>
+    </ul>
+
+    <h3>Opisne Liste</h3>
+    <dl>
+        <dt>London</dt>
+        <dd>Glavni grad Engleske i UK-a</dd>
+
+        <dt>Pariz</dt>
+        <dd>Glavni grad Francsuke</dd>
+
+        <dt>Zagreb</dt>
+        <dd>Glavni grad Hrvatske</dd>
+    </dl>
+
+    <h3>Ugnjiežđene liste</h3>
+    <ul type="square">
+        <li>Afrika</li>
+        <li>Azija</li>
+        <li>Europa
+            <ol>
+                <li>Francuska</li>
+                <li>Španjolska
+                    <ol type="a">
+                        <li>Madrid</li>
+                        <li>Barcelona</li>
+                        <li>Bilbao</li>
+                        <li>...</li>
+                    </ol>
+                </li>
+                <li>Italija</li>
+                <li>...</li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+
+</html>
