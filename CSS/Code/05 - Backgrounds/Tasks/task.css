@@ -1,0 +1,23 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: url(../Examples/images/pattern.png),
+    url(../Examples/images/fire.png) center center/20% no-repeat,
+    url(../Examples/images/blossom.jpg) center center/cover fixed;
+}
+
+p {
+    color: whitesmoke;
+}
+
+h1 {
+    color: white;
+    background-color: brown ;
+    text-align: center;
+
+}
+
+
+
+
