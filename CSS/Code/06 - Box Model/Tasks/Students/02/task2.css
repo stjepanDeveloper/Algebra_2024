@@ -1,0 +1,49 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+
+}
+
+body>div {
+    height: 800px;
+    width: 800px;
+    background-color: gainsboro;
+    border: 5px solid black;   
+}
+
+
+
+div > div:first-child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    margin-left: 0;
+}
+
+div > div:last-child {
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    
+
+}
+
+/* div:nth-child(2) {
+    background-color: gainsboro;
+    height: 300px;
+    width: 300px;
+}
+
+div:nth-child(3) {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
+
+div: {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+} */
