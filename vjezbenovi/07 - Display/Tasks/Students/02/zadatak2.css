@@ -1,0 +1,23 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+
+}
+
+div {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+
+img {
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding: 1em;
+    margin-bottom: 20px;
+    width: 50%;
+}
