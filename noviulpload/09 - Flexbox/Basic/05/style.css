@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.wrapper div {
+    background-color: lavender;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    width: 150px;
+    margin: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* flex container sadrži flex iteme
+main axis X
+cross axis Y
+s lijeva na desno prikaz elemenata
+
+
+div = container
+flex container (roditelj)
+    dispay flex | inline-flex ( stavlja se samo na roditelja)
+
+    flex direction row | row-reverse | column | column-reverse
+    (po defaultu je column svojstvo)(stavlja se na roditelja)
+
+    flex-wrap:  nowrap | wrap | wrap-reverse
+
+    align-items : 
+
+    align-content :
+
+    justify-content:  flex start | flex end | center | space-betweem | space around | space-evenly
+
+    flex-flow:  <`flex-direction`> || <`flex-wrap`>  */

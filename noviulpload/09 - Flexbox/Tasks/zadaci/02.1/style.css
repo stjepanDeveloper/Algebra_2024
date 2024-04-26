@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+
+    height: 600px;
+}
+
+.wrapper div {
+    background-color: lavender;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-item {
+    flex-grow: 1;
+}

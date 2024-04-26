@@ -1,0 +1,24 @@
+/* position - static | absolute | fixed | relative | sticky initial nherit */
+
+/* position relative
+left 50px
+top 50px */
+
+/* position absolute (roditelj ne smije imati staticnu poziciju)
+parent 
+position relative
+left 100px
+top 100px
+
+child 
+position absolute
+top 20px
+left 20px */
+
+/* position fixed
+#parent 
+position fixed
+right 10
+bottom 10 */
+
+

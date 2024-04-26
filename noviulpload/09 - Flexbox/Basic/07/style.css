@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+    padding: 1em;
+    height: 600px;
+}
+
+.wrapper div {
+    background-color: lavender;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    width: 150px;
+    margin: 1em;
+}
+
+/* align content koristimo kada su elementi rasporedjeni u vise redaka ili stupaca, te za to koristimo i flex wrap svojstvo */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
