@@ -1,0 +1,69 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* box */
+
+div {
+    background-color: lavender;
+    border: 1px solid purple;
+    font-size: 2em;
+    line-height: 150px;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto 2em;
+    text-align: center;
+}
+
+div:first-of-type {
+    transition: background-color 1.5s, width 3s ease-in-out;
+    
+}
+
+div:first-of-type:hover {
+    background-color: aquamarine;
+    width: 800px ;
+}
+
+div:nth-of-type(2) {
+    transition: transform 3s ease-in-out;
+}
+
+div:nth-of-type(2):hover {
+    transform: rotate(480deg) scale(2);
+}
+
+div:nth-of-type(3) {
+    transition: transform 2s ease-in-out 2s;
+
+}
+
+div:nth-of-type(3):hover {
+    transform: translateX(600px) rotate(90deg);
+
+}
+
+div:nth-of-type(4) {
+    transition: background-color 1.5s, height 2s, transform 5s ease-in-out;
+}
+
+div:nth-of-type(4):hover {
+    background-color: yellow;
+    height: 600px;
+    transform: translateY(1000px);
+}
+
+
+
+
