@@ -15,3 +15,15 @@ var library = [
         readingStatus: false,
     },
 ];
+
+
+for (let i = 0; i < library.length; i++) {
+
+    let book = library[i]; // Moramo definirati iteraciju niza objekata
+
+    if (book.readingStatus){
+        console.log(`Knjiga ${book.title} od ${book.author} je vec procitana.`);
+    } else {
+        console.log(`Knjiga ${book.title} od ${book.author} jos nije procitana.`);
+    }
+};
